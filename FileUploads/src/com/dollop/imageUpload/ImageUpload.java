@@ -29,6 +29,7 @@ public class ImageUpload extends HttpServlet {
 			//try{name = name.substring(name.lastIndexOf("\\")+1);} catch(Exception e) {}
 			System.out.println(name);
 			//image.write(new File("c:/images/"+name));
+		System.out.println(name);
 		}
 		
 		

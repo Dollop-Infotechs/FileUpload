@@ -27,6 +27,7 @@ public class ImageUpload extends HttpServlet {
 		for(FileItem image: images) {
 			String name = image.getName();
 			String name = image.getName();
+			int i=10;
 			//try{name = name.substring(name.lastIndexOf("\\")+1);} catch(Exception e) {}
 			System.out.println(name);
 			//image.write(new File("c:/images/"+name));
